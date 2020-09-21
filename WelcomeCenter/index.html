@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"></script>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="vide.js"></script>
+  <script defer src="scc.js"></script>
+  <title>Welcome Center</title>
+</head>
+<body>
+  
+    <video id="video" width="500" height="374" autoplay muted></video>
+    
+  
+  
+  <div class="container">
+    <img id="imgg" src="north-campus.jpg" alt="">
+    <div id="question-container">
+      <div id="question"><h2>Do you want to register yourself?</h2></div>
+      <div id="answer-buttons" class="btn-grid">
+        <button id="yes-btn" class="btn">Yes</button>
+        <button id="no-btn"  class="btn">No</button>
+       
+      </div>
+    </div>
+    <div class="form-area-outer">
+      <div class="form-area-inner">
+        <h2>Please fill the form by speaking the specific fields.</h2>
+        <form id="myform">
+          <input type="text" id="uname" placeholder="User Name" />
+          <input type="email" id="emailadd" placeholder="Email Address" />
+          <input type="tel" id="telnum" placeholder="Mobile Number" />
+          <input id="mymessage" placeholder="Department"/>
+          <button class ="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+</html>
